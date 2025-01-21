@@ -25,6 +25,42 @@ A Doubly Linked List is a more advanced data structure where each node contains 
 
 <hr><br>
 
+## Demo
+
+### Primitive List Example
+
+```cpp
+#include <iostream>
+#include "PrimitiveList.h"
+
+int main() {
+    PrimitiveList<int> list;
+    list.append(1);
+    list.append(2);
+    list.append(3);
+    list.display(); // Output: 1 2 3
+    return 0;
+}
+```
+
+### Doubly Linked List Example
+
+```cpp
+#include <iostream>
+#include "DoublyLinkedList.h"
+
+int main() {
+    DoublyLinkedList<int> list;
+    list.append(1);
+    list.append(2);
+    list.append(3);
+    list.display(); // Output: 1 2 3
+    return 0;
+}
+```
+
+<hr><br>
+
 ## Features
 
 - Basic implementation of Primitive List
@@ -37,21 +73,24 @@ A Doubly Linked List is a more advanced data structure where each node contains 
 - C++
 - GitHub for version control
 
-## Steps to Run
+## Project Setup
 
-1. Clone the repository:
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/Primitive-List-Doubly-Linked-List.git
    ```
-2. Navigate to the project directory:
+2. **Navigate to the project directory:**
    ```bash
    cd Primitive-List-Doubly-Linked-List
    ```
-3. Compile the code using a C++ compiler:
+
+## Steps to Run
+
+1. **Compile the code using a C++ compiler:**
    ```bash
    g++ -o main main.cpp
    ```
-4. Run the executable:
+2. **Run the executable:**
    ```bash
    ./main
    ```
