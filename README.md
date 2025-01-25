@@ -59,10 +59,14 @@ int main() {
 - Examples of common operations (insertion, deletion, traversal)
 - Well-documented code for easy understanding
 
+<hr><br>
+
 ## Technologies Used
 
 - C++
 - GitHub for version control
+
+<hr><br>
 
 ## Project Setup
 
@@ -75,6 +79,8 @@ int main() {
    cd Primitive-List-Doubly-Linked-List
    ```
 
+<hr><br>
+
 ## Steps to Run
 
 1. **Compile the code using a C++ compiler:**
@@ -85,6 +91,8 @@ int main() {
    ```bash
    ./main
    ```
+
+<hr><br>
 
 ## License
 
